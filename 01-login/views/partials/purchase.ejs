@@ -1,0 +1,39 @@
+<div class="flex justify-center py-4">
+    <div class="w-5/6 lg:w-3/4 bg-white p-4 rounded overflow-hidden shadow-lg">
+        <h1 class="text-2xl">Purchase Tickets</h2>
+    <p>Click on a ticket to purchase a raffle ticket.</p>
+    </br>
+    <style>
+        .ticket-section {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            gap: 30px;
+        }
+    
+        .ticket-button {
+            display: inline-flex;
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease;
+        }
+    
+        .ticket-button:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: cadetblue
+        }
+    </style>
+    
+    <div class="ticket-section">
+        <a href="buy?ticketCount=1" class="ticket-button">1 Ticket <br>£1.00</br> </a>
+        <a href="buy?ticketCount=5" class="ticket-button">5 Tickets<br>£5.00</br></a>
+        <a href="buy?ticketCount=10" class="ticket-button">10 Tickets<br>£10.00</br></a>
+        <a href="buy?ticketCount=20" class="ticket-button">20 Tickets<br>£20.00</br></a>
+    </div>
+    </div>
+</div>
